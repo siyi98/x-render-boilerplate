@@ -1,2 +1,3 @@
-# x-render-boilerplate
-使用 x-render 开发中后台案例
+# README
+
+`@umijs/max` 模板项目，更多功能参考 [Umi Max 简介](https://next.umijs.org/zh-CN/docs/max/introduce)
