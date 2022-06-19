@@ -1,4 +1,5 @@
-import { Layout } from 'antd'
+import { Layout, Avatar } from 'antd'
+import { ReactNode } from 'react'
 
 const { Header } = Layout
 // 运行时配置
@@ -16,6 +17,18 @@ export const layout = () => {
     menu: {
       locale: false,
     },
-    headerRender: () => <Header />
-  };
+    headerRender: () => <Header />,
+    rightRender:() => <Avatar />,
+    menuHeaderRender:(logo: ReactNode, title: ReactNode) => (
+      <div
+        id="customize_menu_header"
+        onClick={() => {
+          window.open('https://remaxjs.org/');
+        }}
+      >
+        {logo}
+        {title}
+      </div>
+    )
+  }
 };
