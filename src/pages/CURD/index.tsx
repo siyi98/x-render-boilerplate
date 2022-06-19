@@ -167,7 +167,6 @@ const Demo = () => {
   return (
     <PageContainer>
       <Search
-        style={{boxShadow:'0 2px 4px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(25 15 15 / 7%), 0 0 1px 0 rgb(0 0 0 / 8%);'}}
         schema={schema}
         displayType="row"
         api={[

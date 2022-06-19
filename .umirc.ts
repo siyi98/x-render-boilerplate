@@ -6,9 +6,6 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
-  layout: {
-    title: '@umijs/max',
-  },
   routes: [
     {
       path: '/',
@@ -20,14 +17,14 @@ export default defineConfig({
       component: './Home',
     },
     {
-        name: ' CRUD 示例',
-        path: '/table',
-        component: './Table',
-    },
-    {
-        name: ' CRUD-TR',
+        name: 'CRUD 示例',
         path: '/curd',
         component: './CURD',
+    },
+    {
+        name: '表单设计器',
+        path: '/design',
+        component: './Generator',
     },
   ],
   npmClient: 'pnpm',
