@@ -6,6 +6,10 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  mfsu: false,
+  layout: {
+    title:'XRender'
+  },
   routes: [
     {
       path: '/',

@@ -1,5 +1,5 @@
 import { Layout, Avatar } from 'antd'
-import { ReactNode } from 'react'
+import type { ReactNode } from 'react'
 
 const { Header } = Layout
 // 运行时配置
@@ -12,23 +12,6 @@ export async function getInitialState(): Promise<{ name: string }> {
 
 export const layout = () => {
   return {
-    title: 'XRender',
     logo: 'https://img.alicdn.com/tfs/TB17UtINiLaK1RjSZFxXXamPFXa-606-643.png',
-    menu: {
-      locale: false,
-    },
-    headerRender: () => <Header />,
-    rightRender:() => <Avatar />,
-    menuHeaderRender:(logo: ReactNode, title: ReactNode) => (
-      <div
-        id="customize_menu_header"
-        onClick={() => {
-          window.open('https://remaxjs.org/');
-        }}
-      >
-        {logo}
-        {title}
-      </div>
-    )
   }
 };
