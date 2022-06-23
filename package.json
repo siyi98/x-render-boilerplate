@@ -5,7 +5,8 @@
     "build": "max build",
     "postinstall": "max setup",
     "start": "npm run dev",
-    "format": "prettier"
+    "format": "prettier",
+    "size": "ANALYZE=1 max build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
