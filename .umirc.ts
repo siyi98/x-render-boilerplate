@@ -13,12 +13,12 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      redirect: '/home',
+      redirect: '/form',
     },
     {
-      name: '首页',
-      path: '/home',
-      component: './Home',
+      name: '表单',
+      path: '/form',
+      component: './Form',
     },
     {
         name: 'CRUD 示例',
