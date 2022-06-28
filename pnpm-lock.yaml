@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@ant-design/icons': ^4.7.0
   '@ant-design/pro-components': ^1.1.3
+  '@types/lodash': ^4.14.182
   '@types/react': ^18.0.0
   '@types/react-dom': ^18.0.0
   '@umijs/max': ^4.0.2
   antd: ^4.20.7
   form-render: ^1.13.8
   fr-generator: ^2.7.8
+  lodash: ^4.17.21
   prettier: ^2
   prettier-plugin-organize-imports: ^2
   prettier-plugin-packagejson: ^2
@@ -24,11 +26,13 @@ dependencies:
   antd: 4.21.3
   form-render: 1.13.8_antd@4.21.3
   fr-generator: 2.7.8_@types+react@18.0.14
+  lodash: 4.17.21
   table-render: 1.3.6_antd@4.21.3
   umi-request: 1.4.0
   zustand: 4.0.0-rc.1
 
 devDependencies:
+  '@types/lodash': 4.14.182
   '@types/react': 18.0.14
   '@types/react-dom': 18.0.5
   prettier: 2.7.1
@@ -1759,6 +1763,10 @@ packages:
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: false
+
+  /@types/lodash/4.14.182:
+    resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
+    dev: true
 
   /@types/mime/1.3.2:
     resolution: {integrity: sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==}
