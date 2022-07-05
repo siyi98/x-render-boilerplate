@@ -10,7 +10,7 @@ export default defineConfig({
   layout: {
     title:'XRender'
   },
-  vite: {},
+  // vite: {},
   routes: [
     {
       path: '/',
