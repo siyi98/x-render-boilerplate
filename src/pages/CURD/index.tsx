@@ -1,10 +1,9 @@
-import { PageContainer } from '@ant-design/pro-components'
 import { InfoCircleOutlined, PlusOutlined } from '@ant-design/icons';
-import request from 'umi-request'
+import { PageContainer } from '@ant-design/pro-components';
 import { Button, message, Space, Tag, Tooltip } from 'antd';
-import React from 'react';
 import { Search, Table, useTable, withTable } from 'table-render';
-import './index.less'
+import request from 'umi-request';
+import './index.less';
 
 const schema = {
   type: 'object',
@@ -40,9 +39,9 @@ const Demo = () => {
     return request
       .get(
         'https://www.fastmock.site/mock/62ab96ff94bc013592db1f67667e9c76/getTableList/api/basic',
-        { params }
+        { params },
       )
-      .then(res => {
+      .then((res) => {
         if (res && res.data) {
           return {
             rows: [...res.data, { money: null }],
@@ -50,7 +49,7 @@ const Demo = () => {
           };
         }
       })
-      .catch(e => {
+      .catch((e) => {
         console.log('Oops, error', e);
 
         // 注意一定要返回 rows 和 total
@@ -61,13 +60,13 @@ const Demo = () => {
       });
   };
 
-  const searchApi2 = params => {
+  const searchApi2 = (params) => {
     return request
       .get(
         'https://www.fastmock.site/mock/62ab96ff94bc013592db1f67667e9c76/getTableList/api/basic',
-        { params }
+        { params },
       )
-      .then(res => {
+      .then((res) => {
         if (res && res.data) {
           return {
             rows: res.data.slice(1),
@@ -75,7 +74,7 @@ const Demo = () => {
           };
         }
       })
-      .catch(e => {
+      .catch((e) => {
         console.log('Oops, error', e);
         return {
           rows: [],

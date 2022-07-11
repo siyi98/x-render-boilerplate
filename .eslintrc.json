@@ -1,0 +1,11 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-console": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "react/jsx-no-target-blank": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "prettier/prettier": "error"
+  }
+}

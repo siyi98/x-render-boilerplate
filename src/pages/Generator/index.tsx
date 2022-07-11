@@ -1,4 +1,4 @@
-import { PageContainer } from '@ant-design/pro-components'
+import { PageContainer } from '@ant-design/pro-components';
 import Generator from 'fr-generator';
 
 const defaultValue = {

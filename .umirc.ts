@@ -8,7 +8,7 @@ export default defineConfig({
   request: {},
   mfsu: false,
   layout: {
-    title:'XRender'
+    title: 'XRender',
   },
   // vite: {},
   routes: [
@@ -22,16 +22,25 @@ export default defineConfig({
       component: './Form',
     },
     {
-        name: 'CRUD 示例',
-        path: '/curd',
-        component: './CURD',
+      name: 'CRUD 示例',
+      path: '/curd',
+      component: './CURD',
     },
     {
-        name: '表单设计器',
-        path: '/design',
-        component: './Generator',
+      name: '表单设计器',
+      path: '/design',
+      component: './Generator',
     },
   ],
   npmClient: 'pnpm',
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'lodash',
+        libraryDirectory: '',
+        camel2DashComponentName: false,
+      },
+    ],
+  ],
 });
-
