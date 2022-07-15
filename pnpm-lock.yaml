@@ -2653,7 +2653,7 @@ packages:
       rc-slider: 10.0.1_wcqkhtmu7mswc6yz4uyexck3ty
       rc-steps: 4.1.4_wcqkhtmu7mswc6yz4uyexck3ty
       rc-switch: 3.2.2_wcqkhtmu7mswc6yz4uyexck3ty
-      rc-table: 7.25.1_wcqkhtmu7mswc6yz4uyexck3ty
+      rc-table: 7.25.2_wcqkhtmu7mswc6yz4uyexck3ty
       rc-tabs: 11.16.1_wcqkhtmu7mswc6yz4uyexck3ty
       rc-textarea: 0.3.7_wcqkhtmu7mswc6yz4uyexck3ty
       rc-tooltip: 5.1.1_wcqkhtmu7mswc6yz4uyexck3ty
@@ -3073,7 +3073,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001366
-      electron-to-chromium: 1.4.189
+      electron-to-chromium: 1.4.191
       node-releases: 2.0.6
       update-browserslist-db: 1.0.4_browserslist@4.21.2
     dev: false
@@ -3891,8 +3891,8 @@ packages:
       redux: 3.7.2
     dev: false
 
-  /electron-to-chromium/1.4.189:
-    resolution: {integrity: sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==}
+  /electron-to-chromium/1.4.191:
+    resolution: {integrity: sha512-MeEaiuoSFh4G+rrN+Ilm1KJr8pTTZloeLurcZ+PRcthvdK1gWThje+E6baL7/7LoNctrzCncavAG/j/vpES9jg==}
     dev: false
 
   /elliptic/6.5.4:
@@ -7731,8 +7731,8 @@ packages:
       react-dom: 16.14.0_react@16.14.0
     dev: false
 
-  /rc-table/7.25.1_wcqkhtmu7mswc6yz4uyexck3ty:
-    resolution: {integrity: sha512-BEO6ITUtMwoobj2PGPmR2UH+eBf4unk3IMzTJixafMea4bhKgCi3OfnI5Akiaqmbuvx/mVJUsUT3zox7P0VLzA==}
+  /rc-table/7.25.2_wcqkhtmu7mswc6yz4uyexck3ty:
+    resolution: {integrity: sha512-/xhSJrJSNj2JnWih1N2EQ0wihqTlRBvt+0tm+hTO42poyLz4t7KfMMAQQhguesx8AHlzqB+ZPYbGH8PtTScK4Q==}
     engines: {node: '>=8.x'}
     peerDependencies:
       react: '>=16.9.0'
