@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "@ant-design/pro-components": "^1.1.10",
-    "@umijs/max": "^4.0.7",
-    "antd": "^4.21.6",
+    "@ant-design/pro-components": "^1.1.14",
+    "@umijs/max": "^4.0.8",
+    "antd": "^4.21.7",
     "form-render": "^1.13.11",
     "fr-generator": "^2.7.8",
     "lodash": "^4.17.21",
